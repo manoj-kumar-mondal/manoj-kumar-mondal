@@ -5,7 +5,7 @@
 Passionate about exploring how hardware and software interact at the lowest level. Each steps toward understanding systems more deeply from how a processor boots to how secure firmware runs reliably under constraints.
 
 
-## 🔭 Current Focus
+## 🔭 Exploration in Progress
 Currently exploring the deeper side of embedded systems, where firmware meets operating systems and security meets performance.  
 
 - 🧩 [mkernel](https://github.com/manoj-kumar-mondal/mkernel): A custom RTOS from scratch to understand how scheduling, synchronization, and memory management work at the core.
@@ -23,16 +23,19 @@ Continuing the journey toward mastering system-level development -> aiming to de
 ## 🏗️ Featured Projects
 - 🔸 **Custom RTOS Development**
     - A lightweight experimental operating system project aimed at learning and implementing the core building blocks of a kernel starting from memory management and expanding toward process handling, scheduling, synchronizing processes and system-level services. [mkernel](https://github.com/manoj-kumar-mondal/mkernel)
+
   
 - 🔸 **Crash Dump Analysis Tool** *(Integrated these mechanisms in ongoing projects to improve fault traceability, reduce debugging time)*
     -  Developed a crash dump collection and analysis framework to investigate unexpected faults for ARM cortex M.
     -  During exceptions or hard faults, the system captures complete core context including data from **general-purpose registers, stack pointer (SP), link register (LR), program counter (PC), and program status register (xPSR)**.
     -  This captured dump is then parsed and analyzed to identify the root cause of failures or abnormal firmware behavior.
 
+
 - 🔸 **Secure Firmware Installtion and Upgrade System**  *(Key concepts from this design are now part of production firmware to strengthen the security chain in embedded systems.)* 
     - Developed Bootloader + App system with image verification, rollback prevention, and integrity checks.
     - Designed a secure firmware installation and update mechanism to ensure firmware integrity and authenticity during production and deployment.    
     - The process ensures **firmware validation through cryptographic hash calculation and digital signature verification**, following proper authentication procedures to maintain a trusted and secure firmware environment.
+
 
 - 🔸 **Dynamic Memory Manager**  
   A lightweight memory allocation system using static buffer management for embedded devices. [dynamic_memory_managment](https://github.com/manoj-kumar-mondal/dynamic_memory_managment)
@@ -44,8 +47,8 @@ Whether it’s exploring an idea, discussing architecture, or collaborating on s
 
 📬 Feel free to reach out or just say hi, great ideas often start with a simple conversation.  
 
-- 💼 [LinkedIn - manoj554](https://www.linkedin.com/in/manoj554)  
-- 🧑‍💻 [GitHub - manoj-kumar-mondal](https://github.com/manoj-kumar-mondal)  
-- ✉️ **EMail:** devwithmanoj@gmail.com
+- 💼 [LinkedIn -> manoj554](https://www.linkedin.com/in/manoj554)  
+- 🧑‍💻 [GitHub -> manoj-kumar-mondal](https://github.com/manoj-kumar-mondal)  
+- ✉️ **Email:** devwithmanoj@gmail.com
 
 ⭐ **If you find my projects interesting, consider giving them a star, it keeps the motivation alive!**
